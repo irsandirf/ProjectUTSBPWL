@@ -1,0 +1,41 @@
+.navbar-brand{
+    font-family: 'Viga', sans-serif;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+
+}
+.nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #0b1863;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+}
+.tombol{
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+.carousel-inner {
+background-size: cover;
+height: 600px;
+}
+
+.row .card:hover {
+box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+transform: scale(1.02);
+}
+
+.card p {
+margin-top: -10px;
+margin-bottom: 1px;
+}
+
+
+
+
